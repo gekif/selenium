@@ -43,7 +43,8 @@ public class LearningMethods {
         LearningMethods learn1 = new LearningMethods();
         learn1.show();*/
 
-        Home h = new Home(); // h --> Object --> i = 10
+
+        /*Home h = new Home(); // h --> Object --> i = 10
         h.i++; // Object1 --> i = 11;
 
         Home h1 = new Home();  // h1 --> Object2 --> i = 10
@@ -51,9 +52,15 @@ public class LearningMethods {
 
         Home h2 = new Home(); // h2 --> Object 3 --> i = 10
         System.out.println(h2.i); // Object 3 --> i = 10;
+*/
 
+        Calculator calc = new Calculator();
+        int sum = calc.getSum(5, 2);
+        System.out.println("The sum is " + sum);
 
-
+        System.out.println(calc.getMult(10, 4));
+        System.out.println(calc.getDiv(10, 5));
+        System.out.println(calc.getSub(10, 4));
 
 
     }
