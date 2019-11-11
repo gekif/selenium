@@ -37,11 +37,23 @@ public class LearningMethods {
 
     public static void main(String[] args) {
 
-        LearningMethods learn = new LearningMethods();
+/*        LearningMethods learn = new LearningMethods();
         learn.show();
 
         LearningMethods learn1 = new LearningMethods();
-        learn1.show();
+        learn1.show();*/
+
+        Home h = new Home(); // h --> Object --> i = 10
+        h.i++; // Object1 --> i = 11;
+
+        Home h1 = new Home();  // h1 --> Object2 --> i = 10
+        h1.i++; // Object2 --> i = 11;
+
+        Home h2 = new Home(); // h2 --> Object 3 --> i = 10
+        System.out.println(h2.i); // Object 3 --> i = 10;
+
+
+
 
 
     }
